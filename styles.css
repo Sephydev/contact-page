@@ -9,3 +9,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+header {
+    padding: 1.5rem;
+}
