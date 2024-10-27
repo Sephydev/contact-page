@@ -11,10 +11,11 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     font-family: "Be Vietnam Pro", sans-serif;
+    padding: 1.5rem;
 }
 
 header {
-    padding: 1.5rem;
+    
 }
 
 h1 {
