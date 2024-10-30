@@ -43,20 +43,29 @@ label {
     font-size: 0.875rem;
 }
 
-input {
+input, select {
     display: block;
     width: 100%;
-    padding: 1.75rem;
+    padding: 1.5rem;
     border-radius: 1rem;
     border: none;
     margin-top: 0.25rem;
     margin-bottom: 1.5rem;
 }
 
-::placeholder {
+::placeholder, select, input {
     font-family: "Be Vietnam Pro", sans-serif;
     font-size: 1rem;
     font-weight: 600;
+}
+
+select {
+    appearance: none;
+    background-image: url("./assets/Expand_down.svg");
+    background-repeat: no-repeat;
+    background-position: 95%;
+}
+::placeholder {
     color: #CDD5E0;
 }
 
