@@ -39,6 +39,10 @@ form {
     border-radius: 1.5rem;
 }
 
+label {
+    font-size: 0.875rem;
+}
+
 input {
     display: block;
 }
