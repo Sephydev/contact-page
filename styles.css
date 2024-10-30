@@ -34,7 +34,7 @@ p {
 form {
     background-color: rgba(255, 255, 255, 0.2);
     margin: 4rem 1rem;
-    padding: 2rem;
+    padding: 2rem 2rem 5rem;
     border-radius: 1.5rem;
 }
 
@@ -42,7 +42,7 @@ label {
     font-size: 0.875rem;
 }
 
-input, select, textarea {
+input, select, textarea, button {
     display: block;
     width: 100%;
     padding: 1.5rem;
@@ -68,6 +68,15 @@ select {
     background-repeat: no-repeat;
     background-position: 95%;
 }
+
+button {
+    font-size: 1.25rem;
+    font-family: "Be Vietnam Pro", sans-serif;
+    color: #4036A9;
+    font-weight: 600;
+    background-color: #FFFFFF;
+}
+
 ::placeholder {
     color: #CDD5E0;
 }
