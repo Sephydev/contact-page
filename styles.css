@@ -81,17 +81,13 @@ button {
     color: #CDD5E0;
 }
 
-@media screen and (min-width: 1280px) {
-    header {
-        padding: 1.5rem 4rem;
+@media screen and (min-width: 1024px) {
+    .flex {
+        display: flex;
+        gap: 1rem;
     }
 
-    h1 {
-        font-size: 4rem;
-        max-width: 40rem;
-    }
-
-    p {
-        font-size: 2rem;
+    .flex div{
+        width: 100%;
     }
 }

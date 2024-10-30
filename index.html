@@ -14,22 +14,34 @@
             <h1>Interested in our business pricing?</h1>
             <p>Fill out the form to view details and we'll contact you as soon as possible.</p>
             <form>
-                <label for="name">Name</label>
-                <input name="name" id="name" placeholder="Ethan Johnson">
-                <label for="email">Company Email</label>
-                <input name="email" id="email" placeholder="ethan@johnson.com">
-                <label for="size">Company Size</label>
-                <select id="size" name="size">
-                    <option value="50-100">1 - 50 employees</option>
-                    <option value="100-200">50 - 100 employees</option>
-                    <option value="200+">100+ employees</option>
-                </select>
-                <label for="subject">Subject</label>
-                <select id="subject" name="subject">
-                    <option value="landing">Building Landing pages</option>
-                    <option value="e-commerce">Building E-commerce</option>
-                    <option value="mobile-app">Building Mobile app</option>
-                </select>
+                <div class="flex">
+                    <div>
+                        <label for="name">Name</label>
+                        <input name="name" id="name" placeholder="Ethan Johnson">
+                    </div>
+                    <div>
+                        <label for="email">Company Email</label>
+                        <input name="email" id="email" placeholder="ethan@johnson.com">
+                    </div>
+                </div>
+                <div class="flex">
+                    <div>
+                    <label for="size">Company Size</label>
+                        <select id="size" name="size">
+                            <option value="50-100">1 - 50 employees</option>
+                            <option value="100-200">50 - 100 employees</option>
+                            <option value="200+">100+ employees</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="subject">Subject</label>
+                        <select id="subject" name="subject">
+                            <option value="landing">Building Landing pages</option>
+                            <option value="e-commerce">Building E-commerce</option>
+                            <option value="mobile-app">Building Mobile app</option>
+                        </select>
+                    </div>
+                </div>
                 <label for="message">Message</label>
                 <textarea id="message" name="message">50-100 employees</textarea>
                 <button type="submit">Contact Sales</button>
