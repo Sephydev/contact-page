@@ -54,6 +54,7 @@ input {
 ::placeholder {
     font-family: "Be Vietnam Pro", sans-serif;
     font-size: 1rem;
+    font-weight: 600;
     color: #CDD5E0;
 }
 
