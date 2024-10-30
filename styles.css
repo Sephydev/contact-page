@@ -32,10 +32,12 @@ p {
 }
 
 form {
+    display: block;
     background-color: rgba(255, 255, 255, 0.2);
     margin: 4rem 1rem;
     padding: 2rem 2rem 5rem;
     border-radius: 1.5rem;
+    
 }
 
 label {
@@ -89,5 +91,11 @@ button {
 
     .flex div{
         width: 100%;
+    }
+    
+    form {
+        max-width: 60rem;
+        margin: 4rem auto;
+        padding: 2rem 2rem 0.5rem;
     }
 }
