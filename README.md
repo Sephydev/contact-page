@@ -1,4 +1,4 @@
-# Simple Homepage
+# Simple Contact Page
 
 This is a small project I made to train with HTML, CSS and Flexbox.
 
