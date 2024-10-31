@@ -67,6 +67,7 @@ textarea {
 select {
     appearance: none;
     background-image: url("./assets/Expand_down.svg");
+    background-color: #FFFFFF;
     background-repeat: no-repeat;
     background-position: 95%;
 }
